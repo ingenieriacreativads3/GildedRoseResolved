@@ -1,5 +1,5 @@
-interface Qualitiable {
+interface QualityUpdatable {
 
-    public void updateQuality();
+    public void update();
 
 }

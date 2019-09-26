@@ -13,6 +13,11 @@ public class ConjuredItem extends Item implements Qualitiable {
 
         super.update();
         super.update();
+        
+        if(this.sellIn < 0) {
+            super.update();
+            super.update();
+        }
 
     }
 

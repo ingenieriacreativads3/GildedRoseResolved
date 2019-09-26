@@ -9,13 +9,10 @@ class GildedRose {
         this.items = items;
     }
 
-    public void updateQuality(Qualitiable item) {
+    public void updateQuality() {
 
-        for (int i = 0; i < this.items.length; i++){
-
-            this.items[i].update();
-
+        for (QualityUpdatable item : this.items) {
+            item.update();
         }
-
     }
 }
